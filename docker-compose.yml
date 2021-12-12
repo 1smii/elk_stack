@@ -10,12 +10,16 @@ services:
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - discovery.type=single-node
+    volumes:
+      - ./elasticsearch/data:/usr/share/elasticsearch/data
     ports: 
       - 9200:9200
       - 9300:9300
 
   logstach:
     image: docker.elastic.co/logstash/logstash:7.16.0
+    volumes:
+      - ./logstash/pipeline:/usr/share/logstash/pipeline
   
   kibana:
     image: docker.elastic.co/kibana/kibana:7.16.0
