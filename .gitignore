@@ -1,2 +1,4 @@
 ./elasticsearch-data-volume/*
-./nginx/*
+./nginx-server/*
+./nginx/docker-compose.yaml
+./nginx/logs/*.kar
