@@ -1,4 +1,4 @@
 .gitignore
-./elasticsearch-data-volume/*
+./elasticsearch-data-volume
 ./nginx/logs/*
 ./nginx/docker-compose.yaml
