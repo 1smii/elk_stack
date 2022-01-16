@@ -1,4 +1,4 @@
-# - Docker-compose Elasticsearch + Kibana
+# Docker-compose Elasticsearch + Kibana
 The repository is ready to clone and run the docker-compose.
 You will have an Elasticsearch and Kibana running in few seconds, using the default configuration.
 
