@@ -1,9 +1,9 @@
-# Docker-compose Elasticsearch + Kibana
-The repository is ready to clone and run the docker-compose.
+# Preparation
+The repository contains the docker-compose file ready for test the Kibana and Elasticsearch tools
 You will have an Elasticsearch and Kibana running in few seconds, using the default configuration.
 
-You are able to create your own configuration to modify the settings of Elasticsearch also Kibana.
-The default volume is: **elastisearch-data-volume** all the data stored in **/usr/share/elasticsearch/data** will be saved in the mentioned volume.
+_You are able to create your own configuration by creating a configuration file for Elasticsearch also Kibana_
+The default volume is: **elastisearch-data-volume** all the data stored in **/usr/share/elasticsearch/data** will be saved in the mentioned folder.
 
 ---
 ## - How to run the Tools
