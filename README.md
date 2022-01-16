@@ -17,9 +17,10 @@ The default volume is: **elastisearch-data-volume** all the data stored in **/us
 Go to http://localhost:5601/ (localhost server we provided for Kibana) and http://localhost:9200/( Elasticsearch host server) to check if its working fine.
 
 You will get something like this on 9200:
-- image.png
+- ![localhost9200](https://user-images.githubusercontent.com/48752102/149662983-e5348548-8365-4719-be44-705469f34dfd.png)
 
 And something like this with 5601:
-- image.png
+- ![localhost5601](https://user-images.githubusercontent.com/48752102/149662997-13a4a243-2b97-439f-974c-1a295e36ea6c.png)
+
 
 If you are getting Both the screens, congratulations, you have successfully crossed your biggest hurdle in learning elk stack!
