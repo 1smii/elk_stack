@@ -1,5 +1,5 @@
 # Preparation
-The repository contains the docker-compose file ready for test the Kibana and Elasticsearch tools
+The repository contains the docker-compose file ready for test the Kibana and Elasticsearch tools version 7.16.0
 You will have an Elasticsearch and Kibana running in few seconds, using the default configuration.
 
 _You are able to create your own configuration by creating a configuration file for Elasticsearch also Kibana_
